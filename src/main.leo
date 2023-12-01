@@ -3,6 +3,7 @@ program token.aleo {
     // and `u64` as the value.
     mapping account: address => u64;
 
+    // Token structure describing token entity for aleo
     record token {
         // The token owner.
         owner: address,
